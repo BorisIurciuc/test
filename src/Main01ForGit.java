@@ -1,3 +1,5 @@
+package src;
+
 /**
  * 02/11/2023 test  @author Boris Iurciuc (cohort36)
  */
