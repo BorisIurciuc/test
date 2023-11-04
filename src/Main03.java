@@ -7,5 +7,4 @@ public class Main03 {
     System.out.println("Hello Main03");
     System.out.println("Hello again");
   }
-
 }
