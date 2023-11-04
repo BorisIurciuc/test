@@ -1,7 +1,5 @@
 /**
- * 04/11/2023 test
- *
- * @author Boris Iurciuc (cohort36)
+ * 04/11/2023 test @author Boris Iurciuc (cohort36)
  */
 public class Main03 {
 
