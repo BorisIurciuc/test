@@ -6,7 +6,7 @@ package src;
 public class HelloGit {
 
   public static void main(String[] args) {
-
+    // new comment
     System.out.println("Hello Git");
     System.out.println("Hello all");
   }
