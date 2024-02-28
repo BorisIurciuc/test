@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(22, 96, 153);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner{
+    padding: 1px 1px 1px 1px;
+    background-image: url("./Image/underwater_top.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 90;
+    box-shadow: 2px 2px 2px 2px rgba(33, 44, 53, 0.5);
+    top: 0;
+    position: sticky;
+    opacity: 0.8;
+    
+}
+.logo{
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(28, 1, 117, 0.5);
+    position: sticky;
+}
+.nav-list{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    list-style-type: none;
+    position: sticky;
+}
+@media(max-width: 600px) {
+    .nav-item{flex-direction: column; margin-top: 0;}
+    #nav{flex-direction: column; gap: 0; margin-top: 0;}
+    
+}
+.nav-item{
+    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(25, 2, 88);
+    text-decoration: none;
+    font-weight: bolder; 
+    &:hover{
+        color: rgb(251, 249, 249);
+        transition: all 0.5s ease;
+        transform: scale(1.1);
+    }
+}
+.search_form{
+    margin: 40px 35px 0 0;
+    border-radius: 50;
+    width: 250px;
+    height: 20px;
+    background-color: rgba(65, 132, 151, 0.106);
+    &:hover{
+        background-color: rgb(254, 254, 254);
+    }
+}
+.search_form::placeholder{
+    color: rgb(174, 168, 192);
+    font-size: 15px;
+    font-style: italic;
+}
+main{
+    width: 90%;
+    background-color: rgb(234, 251, 251);
+    background-image: url(./image/water.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 5px rgba(33, 44, 53, 0.5);
+}
+.index-ilink{
+    width: calc(60% - 40px);
+    height: calc((45vw + 40px) / 16 * 9);
+    margin: 20px;
+    background-color: aquamarine;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px 5px rgba(33, 44, 53, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    text-align: center;
+    vertical-align: text-bottom;
+    align-items: end;
+} 
+.index-ilink:hover{
+    transform: scale(1.1);
+}
+.photo1{
+    background-image: url(./image/smile_shark.png);
+}
+.photo2{
+    background-image: url(https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRGKixIsUnLl5yQyHRovwnZETKV4zZ7TKeqpMJ8Y_SKwjprhthj9WT_gxb_1GkVWML3);
+}
+.photo3{
+    background-image: url(./image/whale.jpg);
+}
+.photo4{
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/1582279/pub_64d8ebe7988c3979388ab2b5_64da25969d644c022830849e/scale_2400);
+}
+.nav-index{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    color: white;
+    vertical-align: text-bottom;
+    &:hover{
+        color: rgb(35, 5, 231);
+        transition: all 0.5s ease;
+    }
+}
+.container{
+    width: 400vh;
+}
+.red-box{
+    background-color: white;
+    border: 0.5px solid rgb(108, 107, 107);
+}
+.page-list{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.image{
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+figcaption{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+table{
+    display: block;
+    justify-content: center; 
+}
+caption{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+tr{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    padding: 1px 1px 1px 1px;
+    background-image: url(./image/underwater_deep.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.95;
+    box-shadow: 0px 0px 5px 5px rgba(33, 44, 53, 0.5);
+}
+.text_footer{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap')
