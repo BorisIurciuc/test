@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const headElement = document.querySelector("h2");
     const boxElement = document.querySelector(".box");
     const btnElement1 = document.getElementById("btn-1");
     
@@ -10,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     btnElement2.id = "btn-2";
     btnElement3.id = "btn-3";
-    
     imageElement.id = "img-1";
     
 let toggle = true;
@@ -28,20 +26,17 @@ btnElement1.addEventListener("click", () => {
         boxElement.removeChild(btnElement3);
     }
     toggle = !toggle
-
 });
 
-toggle = true;
 btnElement2.addEventListener("click", () => {
     if (toggle) {
         boxElement.style.backgroundColor = "rgb(200, 244, 200)";
     } else {
         boxElement.style.backgroundColor = "lightblue";
     }
-    toggle = !toggle; 
+    toggle = !toggle
 });
 
-toggle = true;
 btnElement3.addEventListener("click", () => {
     if(toggle){
         imageElement.src = "https://imgsrv2.voi.id/Gz6oNQEqxfkrLn1Y1wN7CSmjOxwWyLhM-Je9oE4-nqs/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xMzAzODQvMjAyMjAyMDIxMjQ2LW1haW4uY3JvcHBlZF8xNjQzNzgwODEzLkpQRw.jpg";
@@ -50,7 +45,7 @@ btnElement3.addEventListener("click", () => {
     } else {
         main.removeChild(imageElement);
     }
-    toggle = !toggle;
+    toggle = !toggle
 });
 
 });
